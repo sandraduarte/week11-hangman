@@ -1,3 +1,5 @@
+
+//Letter Function, if the letter is guessed or (., , '')
 exports.letter = function(letter) {
 	this.name = letter;
 	this.guessed = false;

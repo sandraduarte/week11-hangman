@@ -1,6 +1,9 @@
+
+//Word List to Guess
 var presidents =
 	["Lincoln", "Roosevelt", "Kennedy", "Clinton", "Reagan", "Obama", "Carter", "Washington", "Adams", "Bush", "Nixon"];
 
+//Letter Function, fill it in if guessed
 var letter = require("./letter.js");
 
 exports.game = function() {
@@ -33,7 +36,7 @@ exports.game = function() {
 	};
 	this.checkWord = function() {
 		for(var i = 0; i < this.guessedWord.length; i++) {
-			if(this.guessedWord[i].guessed == false) {
+			if(this.guessedWord[i].guessed === false) {
 				return false;
 			}
 		}
