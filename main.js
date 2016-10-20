@@ -17,7 +17,7 @@ var newGame = new game.game();
 newGame.init();
 
 
-console.log("Presidential HANGMAN");
+console.log("Let's play Presidential Hangman!");
 console.log("Guess a President!");
 console.log("--------------------");
 console.log("Guesses left: " + newGame.guessCount);
@@ -54,7 +54,7 @@ rl.on('line', function(line){
     	
     	// Check if all letters were correctly guessed
     	if(newGame.checkWord()) {
-    		console.log("YOU GOT IT!!");
+    		console.log("Woo Hoo! You had " + newGame.guessCount + " guesses left, but who needs 'em - YOU WON!");
     		process.exit();
     	}
     	if(newGame.guessCount <= 0) {

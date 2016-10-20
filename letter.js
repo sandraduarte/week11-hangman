@@ -11,7 +11,7 @@ exports.letter = function(letter) {
 			return this.name;
 		}
 		else {
-			return "_";
+			return "*";
 		}
 	};
 };
