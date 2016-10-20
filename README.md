@@ -1,2 +1,3 @@
-# week11-hangman
-week two with  JavaScript constructors
+Week11-Hangman
+
+Guess the Presidents!

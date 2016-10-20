@@ -1,0 +1,22 @@
+{
+  "name": "week11-hangman",
+  "version": "1.0.0",
+  "description": "Hangman Game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandraduarte/week11-hangman.git"
+  },
+  "author": "SMD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandraduarte/week11-hangman/issues"
+  },
+  "homepage": "https://github.com/sandraduarte/week11-hangman#readme",
+  "dependencies": {
+    "linebyline": "^1.3.0"
+  }
+}
