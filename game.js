@@ -1,4 +1,7 @@
 
+//game.js file will randomly select a word for the player.
+
+
 //Word List to Guess
 var presidents =
 	["Lincoln", "Roosevelt", "Kennedy", "Clinton", "Reagan", "Obama", "Carter", "Washington", "Adams", "Bush", "Nixon"];
